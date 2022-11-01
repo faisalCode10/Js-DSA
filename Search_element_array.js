@@ -17,6 +17,9 @@
 
 // console.log(index)
 
+
+
+// Find Duplicate value in array 
 const a = [4,3,6,3,4,3]
 
 function count_duplicate(a){
