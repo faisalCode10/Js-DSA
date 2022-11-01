@@ -28,3 +28,4 @@ for(let i=position; i<data.length-1; i++){
     data.length=data.length-1;
     console.log(data)
 }
+
