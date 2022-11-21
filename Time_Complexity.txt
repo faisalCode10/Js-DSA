@@ -1,0 +1,28 @@
+Algorithm Complexity:
+.Algorithm basic: 
+	Steps to do ant thing is called algorithm.
+	1)i.e data = []
+	2)el= 10
+	3)define loop
+	4)match element in loop
+	5)if el == match 
+	6)search complete
+	7)if not match 
+	9)No search found
+.What is algorithm complexity:
+	There are more than one appaorach to a problem its upto us which kind of algo we are using to
+	solve our problem 
+	There are two type of complexity
+	1) Time complexity
+	2)Space complexity
+.What is time Complexity:
+	.The time complexity is mainly calculated by countig the number of steps to finish the execution
+
+.What is space complexity:
+	.Space complexity is the amount of space required to solve a problem
+	.Space complexity = Auxiliary space + input size
+.Big O notation:
+	.Use to denote complexity(both)
+
+
+	

@@ -18,8 +18,33 @@
 
 
 // merging 2 array using shortcut
-let arr = [12,3,4,5,76,56,56,67]
-let arr2= [300,400,500,600]
-let arr3=[...arr, ...arr2]
-console.log(arr3)
+// let arr = [12,3,4,5,76,56,56,67]
+// let arr2= [300,400,500,600]
+// let arr3=[...arr, ...arr2]
+// console.log(arr3)
 // console.log(arr.reverse())
+
+
+
+// Merge two arrays using while loop
+// it will be a complex method but it is the best methd to merge two arrays 
+
+let arr1 = [3,7,12,34,5,90]
+let arr2 = [4,9,25,45]
+let arr3 = []
+let d1 = 0;
+let d2 =0;
+let d3 =0;
+
+while (d1<arr1.length && d2<arr2.length) {
+    if (arr1[d1]<arr2[d2]) {
+        arr3[d3]=arr1[d1];
+        d1++;
+    }else{
+        arr3[d3]=arr2[d2];
+        d2++;
+    }
+    d3++
+}
+
+console.log(arr3)
