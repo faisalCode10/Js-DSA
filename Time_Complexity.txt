@@ -1,6 +1,6 @@
 Algorithm Complexity:
 .Algorithm basic: 
-	Steps to do ant thing is called algorithm.
+	Steps to do any thing is called algorithm.
 	1)i.e data = []
 	2)el= 10
 	3)define loop
